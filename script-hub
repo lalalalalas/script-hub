@@ -192,6 +192,13 @@ BloxTab:AddButton({
 	end
 })
 
+BloxTab:AddButton({
+        Name = "Thunder z Aimbot"
+	Callback = function()
+	        loadstring(game:HttpGet("https://raw.githubusercontent.com/ThunderZ-HUB/HUB/main/Aimbot"))()
+	end
+})
+
 
 -- prison life
 local PrisonTab = Window:MakeTab({
