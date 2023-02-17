@@ -293,6 +293,15 @@ PilgrammedTab:AddButton({
 	end
 })
 
+PilgrammedTab:AddButton({
+        Name = "Chest Autofarmer"
+	Callback = function()
+	        _G.toggle=true
+
+                loadstring(game:HttpGet("https://raw.githubusercontent.com/Disttt/Pilgrammed/main/77-Autochest.lua"))()
+	end
+})
+
 -- DA HOOD
 local DaTab = Window:MakeTab({
 	Name = "Da Hood",
