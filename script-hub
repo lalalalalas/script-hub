@@ -279,6 +279,19 @@ MimicTab:AddButton({
 	end
 })
 
+-- Pilgrammed
+local PilgrammedTab = Window:MakeTab({
+        Name = "Pillgrammed",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+PilgrammedTab:AddButton({
+        Name = "Legend HandlesYT",
+	Callback = function()
+	        loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/prilgrammed1/main/Best77"))()
+	end
+})
 
 -- DA HOOD
 local DaTab = Window:MakeTab({
@@ -672,6 +685,7 @@ local LogTab = Window:MakeTab({
 
 LogTab:AddLabel("Released, Adding LocalPlayer soon.")
 LogTab:AddLabel("Added BSS and Evade.")
+LogTab:AddLabel("Added Pilgrammed section.")
 
 -- Credits
 local CreditsTab = Window:MakeTab({
