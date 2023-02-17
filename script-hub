@@ -294,7 +294,7 @@ PilgrammedTab:AddButton({
 })
 
 PilgrammedTab:AddButton({
-        Name = "Chest Autofarmer"
+        Name = "Chest Autofarmer",
 	Callback = function()
 	        _G.toggle=true
 
