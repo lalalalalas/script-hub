@@ -293,7 +293,7 @@ PilgrammedTab:AddButton({
 	end
 })
 
-PilgrammedTab:AddLabel("Key: Pilgrammed1323!RobloxBest)
+PilgrammedTab:AddLabel("Key: 21New!Pilgrammed2023Best")
 
 PilgrammedTab:AddButton({
         Name = "Chest Autofarmer",
