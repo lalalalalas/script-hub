@@ -289,7 +289,7 @@ local PilgrammedTab = Window:MakeTab({
 PilgrammedTab:AddButton({
         Name = "Legend HandlesYT",
 	Callback = function()
-	        loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/prilgrammed1/main/Best77"))()
+	        loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/pilgrammed21/main/roblox312"))()
 	end
 })
 
